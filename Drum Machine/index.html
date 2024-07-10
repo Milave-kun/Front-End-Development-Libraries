@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Drum Machine</h1>
+    <h5>By:<a href="https://www.freecodecamp.org/Milave-kun"> Milave-kun</a></h5>
+    <div id="drum-machine">
+        <div class="keyboard">
+            <div id="drumQ" class="drum-pad">
+                <audio class="clip" id="Q" src=""></audio>
+                <span>Q</span>
+            </div>
+            <div id="drumW" class="drum-pad">
+                <audio class="clip" id="W" src=""></audio>
+                <span>W</span>
+            </div>
+            <div id="drumE" class="drum-pad">
+                <audio class="clip" id="E" src=""></audio>
+                <span>E</span>
+            </div>
+            <div id="drumA" class="drum-pad">
+                <audio class="clip" id="A" src=""></audio>
+                <span>A</span>
+            </div>
+            <div id="drumS" class="drum-pad">
+                <audio class="clip" id="S" src=""></audio>
+                <span>S</span>
+            </div>
+            <div id="drumD" class="drum-pad">
+                <audio class="clip" id="D" src=""></audio>
+                <span>D</span>
+            </div>
+            <div id="drumZ" class="drum-pad">
+                <audio class="clip" id="Z" src=""></audio>
+                <span>Z</span>
+            </div>
+            <div id="drumX" class="drum-pad">
+                <audio class="clip" id="X" src=""></audio>
+                <span>X</span>
+            </div>
+            <div id="drumC" class="drum-pad">
+                <audio class="clip" id="C" src=""></audio>
+                <span>C</span>
+            </div>
+        </div>
+        <div class="controls">
+            <div id="display"></div>
+            <div class="button">
+                <label for="powerBtn" class="label">Power</label>
+                <div id="powerBtn" class="container">
+                    <div class="cube"></div>
+                </div>
+            </div>
+            <div class="button">
+                <label for="bankBtn" class="label">Bank</label>
+                <div id="bankBtn" class="container">
+                    <div class="cube"></div>
+                </div>
+            </div>
+            <div class="button">
+                <input type="range" name="volume" min="0" max="1" step="0.01" value="0.5" />
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

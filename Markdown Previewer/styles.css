@@ -1,0 +1,142 @@
+html, body {
+  background-color: #121212; /* Dark background color */
+  color: #fff; /* White text color */
+  width: 100%;
+  height: 100%;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  padding-top: 0px;
+  margin-top: 0px;
+  border-color: #89466F; /* Adjust as needed */
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: 400px;
+  min-height: 400px;
+  max-height: 400px;
+  margin-bottom: 10px;
+  background-color: #333; /* Dark textarea background */
+  color: #fff; /* White textarea text color */
+  border: 1px solid #666; /* Dark border color */
+  padding: 10px;
+}
+
+.heading-text-one {
+  font-family: "Eczar", serif;
+  color: #fff; /* White heading text color */
+}
+
+.heading-text-two {
+  margin-top: 0px;
+  font-family: "Lobster Two", cursive;
+  color: #fff; /* White heading text color */
+}
+
+.markdown-text {
+  font-family: "Source Code Pro", monospace;
+  color: #fff; /* White monospace text color */
+}
+
+.container-class {
+  background-color: #333; /* Dark container background */
+  border: 2px solid #89466F; /* Adjust border color */
+  height: 500px;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+}
+
+.fluid-container {
+  background-color: #121212; /* Dark background for fluid container */
+  flex: 1; /* Fill the remaining space */
+}
+
+.row {
+  background-color: #121212; /* Dark background for rows */
+}
+
+#markdown-container {
+  background-color: #222; /* Dark background for markdown container */
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #444; /* Border to distinguish container */
+}
+
+#title {
+  color: #fff; /* White text color for title */
+}
+
+.col-xs-10,
+.col-xs-offset-1,
+.col-sm-8,
+.col-sm-offset-2,
+.col-md-6,
+.col-md-offset-3,
+.col-xs-12,
+.col-sm-10,
+.col-sm-offset-1,
+.col-md-8,
+.col-md-offset-2 {
+  background-color: #121212; /* Ensures all columns have dark background */
+}
+
+.text-center {
+  color: #fff; /* Ensures text in text-center class is white */
+}
+
+button, input {
+  background-color: #333; /* Dark background for buttons and inputs */
+  color: #fff; /* White text color for buttons and inputs */
+  border: 1px solid #666; /* Dark border color */
+}
+
+a {
+  color: #bbb; /* Light color for links */
+}
+
+a:hover {
+  color: #fff; /* Lighter color for links on hover */
+}
+
+.navbar, .navbar-default {
+  background-color: #121212; /* Dark background for navbar */
+  border-color: #333; /* Dark border color for navbar */
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff; /* White text color for navbar links */
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #fff; /* Lighter text color for navbar links on hover */
+}
+
+/* Markdown Input and Output Styling */
+#markdown-input {
+  background-color: #333; /* Dark background for markdown input */
+  color: #fff; /* White text color for markdown input */
+  border: 1px solid #666; /* Dark border color */
+  padding: 10px;
+}
+
+#markdown-output {
+  background-color: #222; /* Dark background for markdown output */
+  color: #fff; /* White text color for markdown output */
+  border: 1px solid #444; /* Dark border color */
+  padding: 20px;
+  border-radius: 10px;
+}
