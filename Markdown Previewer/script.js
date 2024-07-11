@@ -1,7 +1,3 @@
-/*
-User Story: I can type GitHub-flavored Markdown into a text area.
-User Story: I can see a preview of the output of my markdown that is updated as I type.
-*/
 // clear the console
 console.clear();
 
@@ -52,14 +48,6 @@ let Tips = React.createClass({ displayName: "Tips",
 
 
   } });
-
-/*ReactDOM.render(
-          <Tips tipArr={[
-            "Use # before text to create an H1.",
-            "Use ## before text to create an H2."
-          ]}/>,
-          document.getElementById('tips')
-        );*/
 
 // markdown and output
 marked.setOptions({

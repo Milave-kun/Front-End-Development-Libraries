@@ -35,14 +35,19 @@ textarea {
 }
 
 .heading-text-one {
-  font-family: "Eczar", serif;
-  color: #fff; /* White heading text color */
+  font-family: 'Arial', sans-serif; /* Change to your desired font */
+  font-size: 2em; /* Adjust size as needed */
+  font-weight: bold; /* Optional: set font weight */
 }
 
 .heading-text-two {
-  margin-top: 0px;
-  font-family: "Lobster Two", cursive;
-  color: #fff; /* White heading text color */
+  font-family: 'Courier New', monospace; /* Change to your desired font */
+  font-size: 1em; /* Adjust size as needed */
+  font-weight: normal; /* Optional: set font weight */
+}
+
+.heading-text-two a {
+  color: #f88; /* Change the color of the link to #f88 */
 }
 
 .markdown-text {

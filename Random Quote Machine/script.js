@@ -1,12 +1,7 @@
-/* eslint-disable max-len */
-// eslint-disable-next-line no-unused-vars
+
 const projectName = 'random-quote-machine';
 let quotesData;
 
-/*
-  Code by Gabriel Nunes
-  Modified by Todd Chaffee to use Camper gist for JSON Quote data.
-*/
 
 var colors = [
   '#16a085',
